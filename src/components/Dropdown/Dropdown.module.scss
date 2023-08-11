@@ -1,0 +1,29 @@
+.dropdown {
+  list-style: none;
+  position: absolute;
+  margin-top: 24px;
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  text-transform: uppercase;
+  font-size: 24px;
+
+  background-color: white;
+  border: 3px dashed var(--accent-color);
+  border-radius: 12px;
+  box-shadow: 5px 5px 17px -10px rgba(66, 68, 90, 1);
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(0);
+  transition: all 0.3s ease-in;
+
+  &[dropdown="1"] {
+    visibility: visible;
+    transform: translateY(1);
+    opacity: 1;
+  }
+}

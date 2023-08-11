@@ -1,0 +1,17 @@
+:root {
+  --max-width: 1440px;
+  --primary-color: #67439c;
+  --secondary-color: #ebebeb;
+  --accent-color: #f3a5e3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
